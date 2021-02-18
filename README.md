@@ -3,13 +3,12 @@
 
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.  -->
 
-# Language Use in the United States: 2011
+# Title
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-The goal of XXX is to …
 
 ## Installation
 
