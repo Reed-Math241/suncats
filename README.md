@@ -9,7 +9,7 @@
 
 <!-- badges: end -->
 
-The goal of XXX is to …
+The goal of XXX is to ...
 
 ## Installation
 
