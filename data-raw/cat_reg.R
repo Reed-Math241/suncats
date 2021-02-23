@@ -1,16 +1,19 @@
 ## code to prepare `DATASET` dataset goes here
 
+link <- "https://data.sunshinecoast.qld.gov.au/api/views/7f87-i6kx/rows.csv?accessType=DOWNLOAD" 
+
 library(tidyverse)
 
-Registered_Cats <- readr::read_csv("https://data.sunshinecoast.qld.gov.au/api/views/7f87-i6kx/rows.csv?accessType=DOWNLOAD")%>%
-  mutate(across(where(is.character), as.factor)) %>% 
-  mutate(AnimalType = str_replace_all(AnimalType, " ", "")) %>% 
-  filter(AnimalType == "Cat") %>% 
-  select(-SpecificBreed) %>% 
-  mutate(PrimaryColour = gsub('([[:upper:]])', ' \\1', PrimaryColour)) %>%
-  mutate(FirstColour = gsub("([A-Za-z]+).*", "\\1", PrimaryColour)) %>% 
-Registered_Cats
-
-usethis::use_data(DATASET, overwrite = TRUE)
+Registered_Animals = readr::read_csv(link)%>%
+  mutate(across(where(is.character), as.factor)) %>%
+  filter(AnimalType == "Cat") %>%
+  mutate(PrimaryColour = gsub('([[:upper:]])', ' \\1', PrimaryColour)) %>% 
+  mutate(PrimaryColour = str_squish(PrimaryColour)) %>% 
+  mutate(FirstColor = word(PrimaryColour, 1), 
+         SecondColor = ifelse(is.na(word(PrimaryColour, 2)),
+                              word(PrimaryColour, 1),
+                              word(PrimaryColour, 2))) %>%
+select(-PrimaryColour, -AnimalType, -SpecificBreed) %>%
+rename(PrimaryColour = FirstColor, SecondaryColor = SecondColor) 
 
 
