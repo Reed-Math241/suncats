@@ -14,6 +14,32 @@
 # 
 >>>>>>> 57639f50990e28b1e61c251b5f8f09ee8048d103
 >>>>>>> 8970782fc7693159a61d42c29ebebcb6cd572e35
+Sunshine Coast Cat Registry
+
+Description
+
+A Dataset of all of the cats registered with the Sunshine Coast Council in the Sunshine Coast Region of the State of Queensland, Australia from 2016-2021.
+
+Usage
+
+DataSetNameHere
+
+Format
+
+A data frame with _ rows and _ variables
+
+Name
+ The given name of each registered Cat (Max, Spot, etc)
+Breed
+ The first listed breed of a cat (Tabby, Burmese, etc)
+Color
+ the first listed color for each cat (Black, White, etc)
+De-sexed
+ Whether or not the cat has been Spayed or Neutered (had its reproductive organs removed), Yes or No
+Gender
+ listed gender of each cat (Male, Female)
+
+Source URL :https://data.sunshinecoast.qld.gov.au/Administration/Registered-Animals/7f87-i6kx
 
 Sunshine 
 
