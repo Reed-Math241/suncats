@@ -22,7 +22,7 @@ A Dataset of all of the cats registered with the Sunshine Coast Council in the S
 
 Usage
 
-DataSetNameHere
+SunshineCoastCats
 
 Format
 
@@ -55,7 +55,7 @@ https://www.sunshinecoast.qld.gov.au/Pay-and-Apply/Cat-and-Dog-Registration/Gene
 
 The goal of XXX is to ...
 =======
-Sunshine Coast Cat Registry
+##Sunshine Coast Cat Registry
 
 Description
 

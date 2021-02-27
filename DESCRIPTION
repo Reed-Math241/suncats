@@ -1,16 +1,17 @@
-Package: pkgDemo
+Package: suncats
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Sunshine Coast Cats
 Version: 0.1.0
-Author: Wolfgang Brightenburg, Russell Ives, Sung Bum Ahn
+Author: "Sunshine Coast Council, Wolfgang Brightenburg, Russell Ives, Sung Bum Ahn""
 Maintainer: Wolfgang Brightenburg <wolbright@reed.edu>, Russell Ives <ivesr@reed.edu>, Sung Bum Ahn <ahns@reed.edu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: The description of a package is usually long,
+    spanning multiple lines. The second and subsequent lines
+    should be indented, usually with four spaces.
 License: CC0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
-Imports: tidyverse
+Imports: tidyverse(≥ 1.3.0)
 Depends: 
     R (>= 2.10)
 
