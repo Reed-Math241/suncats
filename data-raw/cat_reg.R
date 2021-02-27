@@ -19,6 +19,6 @@ Registered_Animals = readr::read_csv(link)%>%
   mutate(FirstColor = as.factor(FirstColor), SecondColor = as.factor(SecondColor)) %>%
   rename(PrimaryColor = FirstColor, SecondaryColor = SecondColor)
 
-usethis::use_data(DATASET, overwrite = TRUE)
+usethis::use_data(Registered_Animals, overwrite = TRUE)
 
 
