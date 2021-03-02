@@ -3,7 +3,7 @@
 
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.  -->
 
-![suncats](https://imgur.com/a/XOH7THP)
+![alt text](https://imgur.com/a/XOH7THP)
 
 
 ###Description
