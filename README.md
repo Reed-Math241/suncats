@@ -3,7 +3,7 @@
 
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.  -->
 
-![alt text](https://github.com/Reed-Math241/pkgGrpu/blob/master/suncats%20hex.pdf
+![alt text](https://github.com/Reed-Math241/pkgGrpu/blob/master/suncats%20hex.pdf)
 
 ###Description
 
