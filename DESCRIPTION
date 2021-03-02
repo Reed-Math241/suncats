@@ -4,9 +4,9 @@ Title: Sunshine Coast Cats
 Version: 0.1.0
 Author: "Sunshine Coast Council, Wolfgang Brightenburg, Russell Ives, Sung Bum Ahn""
 Maintainer: Wolfgang Brightenburg <wolbright@reed.edu>, Russell Ives <ivesr@reed.edu>, Sung Bum Ahn <ahns@reed.edu>
-Description: The description of a package is usually long,
-    spanning multiple lines. The second and subsequent lines
-    should be indented, usually with four spaces.
+Description:
+Sunshine Coast is a local government in Australia that instituted a legal requirement to register all domesticated dogs and cats in the region.
+In this package, we look at cats of Sunshine Coast to see domesticated cats name, breed, color, desexing and gender to assess the need of the cats in this municiapl government. 
 License: CC0
 Encoding: UTF-8
 LazyData: true
