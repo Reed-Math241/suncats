@@ -48,3 +48,4 @@ suncats <- suncats %>%
 
 usethis::use_data(suncats, overwrite = TRUE)
 usethis::use_github_action("check-standard")
+
