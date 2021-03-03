@@ -15,13 +15,10 @@ knitr::opts_chunk$set(
 )
 
 ```
-
-# Sunshine Coast Cats package(suncats)
 ![suncathex](https://imgur.com/a/XOH7THP)
+# suncats
 
-##Description
-
-A Dataset of all of the cats registered with the Sunshine Coast Council in the Sunshine Coast Region of the State of Queensland, Australia from 2016-2021.
+suncats is a data package of all of the cats registered with the Sunshine Coast region, Queensland, Australia from 2016-2021. The package is monthly updated by the Sunshine Coast Council 
 
 ##Usage
 

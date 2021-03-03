@@ -47,4 +47,4 @@ suncats <- suncats %>%
   mutate(Breed = as.factor(Breed))
 
 usethis::use_data(suncats, overwrite = TRUE)
-
+usethis::use_github_action("check-standard")
