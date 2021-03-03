@@ -20,7 +20,7 @@ color and de-sexing for government policy and identification.
 
 Format
 
-A data frame with 9,919 rows and 9 variables
+A data frame with 9,919 rows and 8 variables
 
 Name The given name of each registered Cat (Max, Spot, etc) Breed. The
 first listed breed of a cat (Tabby, Burmese, etc) Color. the first
