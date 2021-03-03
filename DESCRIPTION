@@ -1,9 +1,21 @@
 Package: suncats
 Type: Package
-Title: Sunshine Coast Cats
+Title: Sunshine Coast Cat Registry
 Version: 0.1.0
-Author: "Sunshine Coast Council, Wolfgang Brightenburg, Sung Bum (Simon) Ahn"
-Maintainer: "Sung Bum (Simon) Ahn""
+Authors@R: 
+   c(person("Sung Bum (Simon)",
+           "Ahn",
+           role = c("aut", "cre"),
+           email = "ahns@reed.edu"), 
+     person("Wolfgang",
+           "Brigtenburg",
+           role = c("aut", "cre"),
+           email = "wolbright@reed.edu"), 
+     person("Queensland", 
+            "Sunshine Coast Council", 
+            role = c("cph"), 
+            email = "Jeff.Ramsey@portlandoregon.gov"))
+Maintainer: "Sung Bum (Simon) Ahn <ahns@reed.edu>"
 Description:
     Sunshine Coast is a local government in Australia that instituted a legal requirement since 2011 to register all domesticated dogs and cats in the region. In this package, we look at cats of Sunshine Coast to see domesticated cats name, breed, color, desexing and gender to assess and track these domestic cats. The council decided to make the data public from 2016, and since the dataset has been monthly updated. 
 License: CC0
