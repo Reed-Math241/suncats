@@ -45,7 +45,6 @@ suncats <- suncats %>%
   mutate(Breed = ifelse(Breed %in% c("Cat", "Exotic"), "Unknown", Breed)) %>%
   mutate(Breed = ifelse(Breed == "Baline", "Balinese", Breed)) %>%
   mutate(Breed = as.factor(Breed))
-​
-​
+
 usethis::use_data(suncats, overwrite = TRUE)
 

@@ -29,7 +29,7 @@ Assess the population of cats in Sunshine Coast region by name, gender, color an
 
 Format
 
-A data frame with  9,919 rows and 9 variables
+A data frame with  9,919 rows and 8 variables
 
 Name
  The given name of each registered Cat (Max, Spot, etc)
