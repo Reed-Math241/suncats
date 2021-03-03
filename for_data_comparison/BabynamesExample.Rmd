@@ -1,0 +1,39 @@
+---
+title: "BabynamesExample"
+author: "Wolfgang Brightenburg"
+date: "3/2/2021"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+babynames <- read_csv("/home/wolbright/Math241/labwork_WolfgangKB/top-100-baby-names-2020.csv")
+```
+```{r}
+babynames_2 <- babynames %>%
+pivot_longer(cols = c("Girl Names", "Boy Names"), 
+               names_to = "Gender", 
+               values_to = "Name") %>%
+mutate(Gender = ifelse(Gender == "Girl Names", "F", "M")) %>%
+mutate(Rank = ifelse(Gender == "M", `Count of Boy Names`, `Count of Girl Names`)) %>%
+select(-`Count of Boy Names`, -`Count of Girl Names`) %>%
+arrange(desc(Rank)) %>%
+head(100)  %>%
+tibble::rowid_to_column("Index") %>%
+select(-Rank)
+write_csv(babynames_2, "Top200BabyNamesInQueensland.csv")
+```
+```{r}
+suncats_100 <- suncats %>%
+group_by(Name, Gender) %>%
+tally() %>%
+arrange(desc(n)) %>%
+head(100) %>%
+tibble::rowid_to_column("Index") %>%
+select(-n)
+```
+```{r}
+difference = anti_join(suncats_100, babynames_2, by = c("Name" = "Name"))
+same = inner_join(babynames_2, suncats_100, by = c("Name" = "Name"))
+```
