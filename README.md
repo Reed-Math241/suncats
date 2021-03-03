@@ -3,7 +3,7 @@
 
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.  -->
 
-\[![suncathex](https://i.imgur.com/bqEilMA.png)\]
+![suncathex](https://i.imgur.com/bqEilMA.png)
 
 # suncats
 
