@@ -3,7 +3,9 @@
 
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.  -->
 
-![suncathex](https://imgur.com/a/XOH7THP) \# suncats
+![suncathex](https://i.imgur.com/bqEilMA.png)
+
+# suncats
 
 suncats is a data package of all of the cats registered with the
 Sunshine Coast region, Queensland, Australia from 2016-2021. The package
