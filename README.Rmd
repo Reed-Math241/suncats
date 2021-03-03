@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 ```
 
 # Sunshine Coast Cats package(suncats)
-![alt text](https://imgur.com/a/XOH7THP)
+![suncathex](https://imgur.com/a/XOH7THP)
 
 ##Description
 
