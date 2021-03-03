@@ -16,21 +16,20 @@ knitr::opts_chunk$set(
 
 ```
 
-
+# Sunshine Coast Cats package(suncats)
 ![alt text](https://imgur.com/a/XOH7THP)
 
-
-###Description
+##Description
 
 A Dataset of all of the cats registered with the Sunshine Coast Council in the Sunshine Coast Region of the State of Queensland, Australia from 2016-2021.
 
-###Usage
+##Usage
 
-suncats
+Assess the population of cats in Sunshine Coast region by name, gender, color and de-sexing for government policy and identification.
 
 Format
 
-A data frame with _ rows and _ variables
+A data frame with  9,919 rows and 9 variables
 
 Name
  The given name of each registered Cat (Max, Spot, etc)
@@ -50,14 +49,6 @@ Person registering pet needs to be over 18 years old.
 General registration information: 
 https://www.sunshinecoast.qld.gov.au/Pay-and-Apply/Cat-and-Dog-Registration/General-Registration-Information
 
-
-
-# Insert Package Name
-
-<!-- badges: start -->
-<!-- badges: end -->
-
-The goal of XXX is to ...
 
 ## Installation
 
