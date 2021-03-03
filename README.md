@@ -5,6 +5,8 @@
 
 ![suncathex](https://i.imgur.com/bqEilMA.png)
 
+# suncats <img src='https://i.imgur.com/bqEilMA.png' align="right" height="138.5" /></a>
+
 # suncats
 
 suncats is a data package of all of the cats registered with the
