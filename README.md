@@ -54,8 +54,7 @@ Tabby <- suncats(name = "Tabby")
 
 # To get data on multiple breeds 
 
-parks <- get_pdxTrees_parks(park = c("Tabby", 
-                                     "Somali"))
+two_breeds <- suncats(name = c("Tabby","Somali"))
 ```
 
 ### Source
@@ -66,5 +65,5 @@ URL
 ### Additional Information
 
 Person registering a cat needs to be over 18 years old.  
-General registration
-information:<https://www.sunshinecoast.qld.gov.au/Pay-and-Apply/Cat-and-Dog-Registration/General-Registration-Information>.
+General pet registration information at Sunshine
+Coast:<https://www.sunshinecoast.qld.gov.au/Pay-and-Apply/Cat-and-Dog-Registration/General-Registration-Information>.
