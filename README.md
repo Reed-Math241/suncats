@@ -18,14 +18,14 @@ color and de-sexing for government policy and identification.
 
 A data frame with 9,919 rows (cats) and 8 variables
 
-### Name
+### Variables
 
-The given name of each registered Cat (Max, Spot, etc) Breed.  
-The first listed breed of a cat (Tabby, Burmese, etc) Color.  
-the first listed color for each cat (Black, White, etc) De-sexed.  
+Name, The given name of each registered Cat (Max, Spot, etc).  
+Breed, The first listed breed of a cat (Tabby, Burmese, etc).  
+Color, the first listed color for each cat (Black, White, etc) De-sexed,
 Whether or not the cat has been Spayed or Neutered (had its reproductive
-organs removed), Yes or No.  
-Gender listed gender of each cat (Male, Female).
+organs removed in Yes or No.)  
+Gender, listed gender of each cat (Male, Female).
 
 ### Source
 
