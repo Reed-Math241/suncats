@@ -20,11 +20,12 @@ A data frame with 9,919 rows (cats) and 8 variables
 
 ### Name
 
-The given name of each registered Cat (Max, Spot, etc) Breed. The first
-listed breed of a cat (Tabby, Burmese, etc) Color. the first listed
-color for each cat (Black, White, etc) De-sexed. Whether or not the cat
-has been Spayed or Neutered (had its reproductive organs removed), Yes
-or No.  Gender listed gender of each cat (Male, Female).
+The given name of each registered Cat (Max, Spot, etc) Breed.  
+The first listed breed of a cat (Tabby, Burmese, etc) Color.  
+the first listed color for each cat (Black, White, etc) De-sexed.  
+Whether or not the cat has been Spayed or Neutered (had its reproductive
+organs removed), Yes or No.  
+Gender listed gender of each cat (Male, Female).
 
 ### Source
 
